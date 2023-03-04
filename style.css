@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', cursive;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+h2{
+    font-family: 'Shantell Sans', cursive;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+.container .first-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.first-section img, .second-section figure img{
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #cccccc,
+              -20px -20px 60px #ffffff; 
+}
+
+.first-section .text-container{
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.text-container h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-container a:visited{
+    color: #000000;
+}
+
+.text-container a:hover{
+    color: #A20161;
+}
+
+.text-container a:active{
+    color: #0aef71;
+}
+
+.second-section h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+}
+.love-dogs ol li, .hate-dogs ul li{
+    list-style: none;
+}
+
+.love-dogs ol, .hate-dogs ul{
+    
+    margin: 30px;
+}
+.things-dogs{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.things-dogs figure img{
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 60px #cccccc,
+              -20px -20px 60px #ffffff;
+}
+
+.form-section h2{
+    font-size: 2rem;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.form{
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.form fieldset {
+  border: none;
+  margin: 20px;
+}
+
+.form fieldset > label{
+    padding: 10px;
+}
+.form fieldset > legend{
+    font-size: 1.3rem;
+}
+
+.form button{
+    border-radius: 50px;
+    margin: 20px;
+    width: 100px;
+}
+.form input[type=text]{
+    width: 200px;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+}
